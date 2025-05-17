@@ -9,6 +9,8 @@ public class Vehicle {
     private String licensePlate;
     private int mileage;
 
+    
+
     public Vehicle(int vehicleId, int userId, String make, String model, int year, String licensePlate, int mileage) {
         this.vehicleId = vehicleId;
         this.userId = userId;
