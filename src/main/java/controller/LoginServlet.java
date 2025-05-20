@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
                 session.invalidate();
             }
             // If role is specified, set it and forward to login page
-            if (role != null) {
+            if (role != null)  {
                 request.setAttribute("role", role);
                 request.getRequestDispatcher("/pages/login.jsp").forward(request, response);
                 return;
