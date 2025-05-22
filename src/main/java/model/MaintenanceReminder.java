@@ -19,6 +19,7 @@ public class MaintenanceReminder {
         this.dueDate = dueDate;
     }
 
+
     public int getUserId() {
         return userId;
     }
